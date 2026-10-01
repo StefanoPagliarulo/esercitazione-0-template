@@ -30,7 +30,7 @@ Quali file ho incluso nel commit e perché: hello.c, perchè era l'unico file ch
 
 Come ho verificato che la versione provata sia presente su GitHub: Usando git status, ho controllato la repository su GitHub.
 
-Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone:
+Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone: prima del pull il file non era aggiornato in locale, dopo il pull il file in locale presentava le modifiche addotte in GitHub. Non serve un nuovo clone perchè la repository è la stessa già clonata.
 
 ## Step 2 — Eco: prima prova
 

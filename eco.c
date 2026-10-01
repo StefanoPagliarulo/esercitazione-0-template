@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 int main(int argc, char *argv[])
 {
     if (argc != 4) {
-        fprintf(stderr, "Uso: %s TESTO INTERO REALE\n", argv[0]);
+      fprintf(stderr, "Uso: %s TESTO INTERO REALE\n", argv[0]);
         return 2;
     }
 
@@ -14,12 +15,15 @@ int main(int argc, char *argv[])
     * prendi ispirazione da:
     * https://en.cppreference.com/c/string/byte/atoi e 
     * https://en.cppreference.com/c/string/byte/atof */
-
+    int intero=atoi(argv[2]);
+    double reale=atof(argv[3]);
     /* Evita un warning finche' la variabiletesto non viene usato nella stampa. */
     (void)testo;
+    
 
     /* TODO: scrivi una sola chiamata a printf che stampi testo, intero e reale,
      * separati da uno spazio e seguiti da un carattere di nuova riga. */
-
+    printf("%s %d %lf\n", testo, intero, reale);
+    
     return 0;
 }
