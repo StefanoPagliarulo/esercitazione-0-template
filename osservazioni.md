@@ -2,9 +2,9 @@
 
 Gruppo:
 
-Componenti (nome, cognome e username GitHub di entrambi):
+Componenti (nome, cognome e username GitHub di entrambi): Leone Lucini (RealHasher), Stefano Pagliarulo (StefanoPagliarulo)
 
-URL del repository condiviso:
+URL del repository condiviso: https://github.com/StefanoPagliarulo/esercitazione-0-template
 
 Chi ha usato la tastiera nello step 1 e nello step 2:
 
@@ -13,21 +13,22 @@ saper spiegare le prove svolte.
 
 ## Step 1 — Hello World: compilazione ed esecuzione
 
-Comando di compilazione:
+Comando di compilazione: gcc -std=c17 -Wall -Wextra -Wpedantic hello.c -o hello
 
-Comando di esecuzione e risultato osservato:
+Comando di esecuzione e risultato osservato: ./hello 
+Il programma stampa su terminale "Hello, computational physics!"
 
-Che cosa ho capito su sorgente ed eseguibile:
+Che cosa ho capito su sorgente ed eseguibile: Modificare il sorgente non modifica direttamente l'eseguibile. Essendo C un linguaggio compilato, l'eseguibile viene modificato solo a seguito della compilazione.
 
-Output richiesto e comportamento del programma prima della modifica:
+Output richiesto e comportamento del programma prima della modifica: Stampare su terminale "Hello, computational physics!". Prima della modifica il programma non eseguiva nulla.
 
-Esito dopo la modifica e spiegazione della correzione:
+Esito dopo la modifica e spiegazione della correzione: l programma stampa su terminale "Hello, computational physics!". Il programma è stato modificato inserendo una stringa per stampare il messaggio.
 
 ## Step 1 — Git
 
-Quali file ho incluso nel commit e perché:
+Quali file ho incluso nel commit e perché: hello.c, perchè era l'unico file che è stato modificato.
 
-Come ho verificato che la versione provata sia presente su GitHub:
+Come ho verificato che la versione provata sia presente su GitHub: Usando git status, ho controllato la repository su GitHub.
 
 Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone:
 
